@@ -1,0 +1,122 @@
+Git Lab Tutorials: 10/10/2021
+GitHub Account: Created in 2013
+
+
+1)
+Felix@FELIX MINGW64 ~
+$ cd documents
+[master 9ff8469] The information files have been updated to describe the current state of the repository.
+ 1 file changed, 4 insertions(+)
+ create mode 100644 docs/status.txt
+
+Felix@FELIX MINGW64 ~/documents/github/assignment2/docs (master)
+$ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 451 bytes | 451.00 KiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/FelixPotter/assignment2.git
+   dc20508..9ff8469  master -> master
+   
+2) 
+Felix@FELIX MINGW64 ~/documents/github/assignment2/docs (master)
+$ git shortlog -sn --all
+     6  Esteban Parra
+     2  Programm
+
+3)
+Felix@FELIX MINGW64 ~/Documents/GitHub/assignment2 (master)
+$ git log README.md
+commit dc20508da004b3e728560eb8ab207849570667f6
+Author: Programm <felixjpotter@gmail.com>
+Date:   Fri Oct 15 18:53:51 2021 -0500
+
+    Updated information files
+
+    The information files have been updated to describe the current state of the repository.
+
+    Repository owner information added to README.md
+
+commit f4975e5d56ff331762b318bfd12c5236e0299f25 (upstream/master)
+Author: Esteban Parra <estebanpr014@gmail.com>
+Date:   Wed Sep 25 18:33:08 2019 -0400
+
+    -> Adding an empty README.md file
+
+4)
+Branches allow you to develop features, fix bugs, or safely 
+experiment with new ideas in a contained area of your repository
+
+5)
+The git log command displays committed snapshots. It lets you list the project history, 
+filter it, and search for specific changes. While git status lets you inspect the working 
+directory and the staging area, git log only operates on the committed history.
+
+6)
+"git log" or can use "git log Vehicle.h"
+
+7)
+git log --all --grep='file'
+
+commit 9ff8469359470e912931bb895dbeef661cc99018 (HEAD -> master, origin/master, origin/HEAD)
+Author: Programm <felixjpotter@gmail.com>
+Date:   Fri Oct 15 20:36:14 2021 -0500
+
+    The information files have been updated to describe the current state of the repository.
+
+commit dc20508da004b3e728560eb8ab207849570667f6
+Author: Programm <felixjpotter@gmail.com>
+Date:   Fri Oct 15 18:53:51 2021 -0500
+
+    Updated information files
+
+    The information files have been updated to describe the current state of the repository.
+
+    Repository owner information added to README.md
+
+commit f4975e5d56ff331762b318bfd12c5236e0299f25 (upstream/master)
+Author: Esteban Parra <estebanpr014@gmail.com>
+Date:   Wed Sep 25 18:33:08 2019 -0400
+
+    -> Adding an empty README.md file
+(END)
+origin/HEAD)
+Author: Programm <felixjpotter@gmail.com>
+Date:   Fri Oct 15 20:36:14 2021 -0500
+
+    The information files have been updated to describe the current state of the repository.
+
+commit dc20508da004b3e728560eb8ab207849570667f6
+Author: Programm <felixjpotter@gmail.com>
+Date:   Fri Oct 15 18:53:51 2021 -0500
+
+    Updated information files
+
+    The information files have been updated to describe the current state of the repository.
+
+    Repository owner information added to README.md
+
+commit f4975e5d56ff331762b318bfd12c5236e0299f25 (upstream/master)
+Author: Esteban Parra <estebanpr014@gmail.com>
+Date:   Wed Sep 25 18:33:08 2019 -0400
+
+    -> Adding an empty README.md file
+	
+8)
+Inheritance has to do with methods and functions inheriting the attributes of another class.
+
+Polymorphism allows program code to have different meaning or functions 
+
+While encapsulation is the process of keeping classes private so they cannot be modified by external codes.
+
+9)
+Lieutenant repositories only solve some conflicts for developers and pushes changes to the assigned lieutenant repository.
+Dictator repository merges changes in the lieutenant repositories and solves any arising conflicts.
+
+10)
+One central/blessed repository: Everyone makes pull from this repository.Only the dictator can push to it.
+
+	
